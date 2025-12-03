@@ -1,5 +1,5 @@
 
-import { User, GraduationCap, Award, Code } from 'lucide-react';
+import { User, GraduationCap, Award, Code, Zap } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const About = () => {
@@ -12,8 +12,6 @@ const About = () => {
   const softSkills = [
     'Public Speaking',
     'Critical Thinking',
-    'Event Management',
-    'Team Leadership',
     'Problem Solving',
     'Communication',
   ];
@@ -48,8 +46,7 @@ const About = () => {
         <div className="text-center mb-12 lg:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">About Me</h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
-            I specialize in turning complex problems into elegant solutions. My approach blends creativity with 
-            strategic thinking to deliver designs and applications that not only look great but work seamlessly.
+            I transform challenging problems into intuitive digital experiences by merging thoughtful UI design with strong backend architecture, creating applications that are fast, seamless, and genuinely useful.
           </p>
         </div>
 
@@ -66,12 +63,10 @@ const About = () => {
                 </div>
                 <div className="space-y-4 text-muted-foreground">
                   <p className="text-base sm:text-lg leading-relaxed">
-                    With over a year of dedicated experience in development, I specialize in creating intuitive, 
-                    user-focused applications that solve real-world problems and deliver seamless digital experiences.
+                    Drawing from my experience in building responsive UIs, robust APIs, and AI-powered features, I create seamless, user-centric applications that turn real-world requirements into clean, effective digital products.
                   </p>
                   <p className="text-base sm:text-lg leading-relaxed">
-                    I thrive on working closely with teams, blending creativity with strategy to bring 
-                    visions to life through thoughtful, impactful development solutions.
+                    I work closely with teams to shape concepts into functional, user-focused applications—balancing creativity, strategy, and solid full-stack development.
                   </p>
                 </div>
               </CardContent>
@@ -142,15 +137,29 @@ const About = () => {
               </CardContent>
             </Card>
 
-            {/* Stats */}
-            <div className="grid grid-cols-1 gap-4">
-              <Card className="p-4 sm:p-6 text-center">
-                <CardContent className="p-0">
-                  <div className="text-2xl sm:text-3xl font-bold text-primary mb-2"></div>
-                  <p className="text-xs sm:text-sm text-muted-foreground"></p>
-                </CardContent>
-              </Card>
-            </div>
+            {/* Currently Working On */}
+            <Card className="p-4 sm:p-6">
+              <CardContent className="p-0">
+                <div className="flex items-center space-x-4 mb-6">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Zap className="w-6 h-6 text-primary" />
+                  </div>
+                  <h3 className="text-xl sm:text-2xl font-semibold">Currently Working On</h3>
+                </div>
+                <div className="space-y-4">
+                  {[
+                    "Building Next.js + AI powered applications",
+                    "Improving full-stack architecture skills",
+                    "Practicing system design fundamentals"
+                  ].map((item, index) => (
+                    <div key={index} className="flex items-start space-x-3">
+                      <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2.5" />
+                      <p className="text-muted-foreground text-sm sm:text-base">{item}</p>
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </div>
