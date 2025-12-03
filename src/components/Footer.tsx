@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-xl sm:text-2xl font-bold">Varshith</h3>
+            <h3 className="text-xl sm:text-2xl font-bold">Varshith Yadavalli</h3>
             <p className="text-muted-foreground max-w-sm text-sm sm:text-base">
               Building scalable applications and intuitive interfaces with modern web technologies.
             </p>
