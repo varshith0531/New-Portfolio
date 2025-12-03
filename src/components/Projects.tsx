@@ -5,19 +5,7 @@ import { Button } from '@/components/ui/button';
 
 const Projects = () => {
   const featuredProjects = [
-    // {
-    //   title: 'SastraNet',
-    //   category: 'Mobile App',
-    //   description: 'A comprehensive university management system built with React Native, featuring secure routing, JWT authentication, and real-time notifications.',
-    //   tech: ['React Native', 'Node.js', 'MongoDB', 'JWT'],
-    //   features: [
-    //     'Secure authentication system',
-    //     'Real-time notifications',
-    //     'Performance optimized for 5K+ users',
-    //     'Reduced crash rate by 30%'
-    //   ],
-    //   link: 'https://hub.sastra.edu/'
-    // },
+
     {
       title: 'Proposify-AI : AI-Powered Proposal Generation Tool',
       category: 'Web App',
