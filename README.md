@@ -86,6 +86,7 @@ I transform challenging problems into intuitive digital experiences by merging t
 * **Weather App**: A real-time weather forecasting web application. (React.js, Tailwind CSS, Vite, Weather API) | [Repo](https://github.com/varshith0531/Weather-Application) / [Demo](https://weather-vy.vercel.app/)
 * **Rock Paper Scissors**: An interactive game featuring smooth micro-animations. (React.js, Tailwind CSS, Vite) | [Repo](https://github.com/varshith0531/Rock-Paper-Scissor) / [Demo](https://rock-paper-scissorvy.vercel.app/)
 * **Tic-Tac-Toe**: Classic Tic-Tac-Toe game featuring an intelligent AI opponent. (React.js, Tailwind CSS, Vite) | [Repo](https://github.com/varshith0531/To-Do-React) / [Demo](https://to-do-vy.vercel.app/)
+* **Slot Machine**: A classic Slot Machine game. (JavaScript, HTML, CSS, React.js, Tailwind CSS, Vite) | [Repo](https://github.com/varshith0531/Slot-Machine-JavaScript) / [Demo](https://vy-slot-machine.vercel.app/)
 
 ---
 
