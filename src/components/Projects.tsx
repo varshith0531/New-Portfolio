@@ -55,13 +55,6 @@ const Projects = () => {
       description: 'Real-time Weather App',
       github: 'https://github.com/varshith0531/Weather-Application',
       link: 'https://weather-vy.vercel.app/'
-    },
-    {
-      title: 'Slot Machine',
-      tech: ['JavaScript', 'HTML', 'CSS', 'React.js', 'Tailwind CSS', 'Vite'],
-      description: 'Slot Machine Game',
-      github: 'https://github.com/varshith0531/Slot-Machine-JavaScript',
-      link: 'https://vy-slot-machine.vercel.app/'
     }
   ];
 
