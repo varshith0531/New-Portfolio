@@ -55,6 +55,13 @@ const Projects = () => {
       description: 'Real-time Weather App',
       github: 'https://github.com/varshith0531/Weather-Application',
       link: 'https://weather-vy.vercel.app/'
+    },
+    {
+      title: 'PULSAR - Web Audio Synth Beat Sequencer Studio',
+      tech: ['JavaScript', 'HTML', 'CSS', 'React.js', 'Tailwind CSS', 'Vite'],
+      description: 'Web Audio Synth Beat Sequencer Studio',
+      github: 'https://github.com/varshith0531/-PULSAR-Web-Audio-Synth-Beat-Sequencer-Studio',
+      link: 'https://pulsar-web-audio.vercel.app/'
     }
   ];
 
@@ -106,7 +113,7 @@ const Projects = () => {
                     ))}
                   </div>
 
-                  {/* Action Button - only for SastraNet */}
+                  {/* Action Button - only for Proposify-AI */}
                   {project.link && (
                     <div>
                       <Button asChild>
